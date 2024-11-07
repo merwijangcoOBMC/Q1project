@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LOG IN PAGE</title>
+
+	<style>
+		body{
+			text-align: center;
+			margin: 20px;
+			background-color: navy;
+			color: white;
+			font-family: Arial, sans-serif;
+		}
+
+		h1{
+			font-size: 50px;
+		}
+		form{
+			max-width: 800px;
+			margin: 0 auto;
+			font-size: 20px;
+		}
+
+		label{
+			display: block;
+			margin: 10px 0 5px;
+			font-size: 20px;
+		}
+	
+
+		input[type="submit"]{
+			padding: 10px 20px;
+			margin: 10px 5px;
+			background-color: green;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		input[type="reset"]{
+			padding: 10px 20px;
+			margin: 10px 5px;
+			background-color: red;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		input[type="reset"]:hover,
+		input[type="submit"]:hover{
+			background-color: black;
+		}
+ 		
+ 		input[type="text"],
+ 			select{
+			width: 100%;
+			padding: 8px;
+
+
+		}
+
+	</style>
+</head>
+<body>
+
+	<h1>The Login</h1>
+	<form>
+		
+
+	<label for="text">Enter Full Name</label>
+	<input type="text" id="text" name="text">
+
+	<label for="email">Enter Email: </label>
+	<input type="email" id="email" name="text">
+
+	<label for="security">Enter Password: </label>
+	<input type="password" id="security" name="security">
+
+	
+	<label for="select">Choose your OBMC campus</label>
+		<select id="select" name="select">
+
+			<option value="Select">Select</option>
+			<option value="Angeles">Angeles</option>
+			<option value="Greenhills">Greenhills</option>
+			<option value="Fairview">Fairview</option>
+			<option value="Las Pinas">Las Pinas</option>
+			<option value="Sta. Ana">Sta. Ana</option>
+		</select>
+
+	<label for= "radio"> Click your Grade level</label>
+		<input type="radio" id="radio1" name="radio" value="Grade 7"> Grade 7
+		<input type="radio" id="radio1" name="radio" value="Grade 8"> Grade 8
+		<input type="radio" id="radio1" name="radio" value="Grade 9"> Grade 9
+		<input type="radio" id="radio1" name="radio" value="Grade 10"> Grade 10
+
+	<label for="select">Section</label>
+		<select id="select" name="select">
+			<option value="Select">Select</option>
+			<option value="Emerald">Emerald</option>
+			<option value="Ruby">Ruby</option>-
+		</select>
+
+
+
+
+	<label for="select">Gender</label>
+		<select id="select" name="select">
+
+			<option value="Select">Select</option>
+			<option value="Male">Male</option>
+			<option value="Female">Female</option>
+			<option value="Would rather not say">Would rather not say</option>
+		</select>
+
+	<label for="text">Age</label>
+	<input type="text" id="text" name="text">
+
+	<label for= "radio">Do you consent submiting this information?</label>
+		<input type="radio" id="radio1" name="radio" value="Yes, I do"> Yes, I do <br>
+	
+
+	<input type="submit" value="SUBMIT">
+	<input type="reset" value="RESET">
+	
+	</form>
+
+	<a href="index.html"target="_blank">Go Back</a>
+
+</body>
+</html>
